@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>
+      <![CDATA[the engulfed cathedral]]>
+    </title>
+    <atom:link href="https://snake.nekoweb.org//rss.xml" rel="self" type="application/rss+xml"/>
+    <link>
+      <![CDATA[https://snake.nekoweb.org/]]>
+    </link>
+    <description>
+      <![CDATA[snake's personal website.]]>
+    </description>
+    <item>
+      <title>
+        <![CDATA[new layout]]>
+      </title>
+      <pubDate>
+        <![CDATA[Wed, 30 Oct 2024 06:45:00 GMT]]>
+      </pubDate>
+      <description>
+        <![CDATA[<p>hell yea</p>]]>
+      </description>
+      <author>
+        <![CDATA[snake]]>
+      </author>
+      <link>
+        <![CDATA[https://snake.nekoweb.org/]]>
+      </link>
+      <guid>
+        <![CDATA[https://snake.nekoweb.org/]]>
+      </guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,131 @@
+:root {
+  --bg:#1a0e05;
+  --fg:#d2b48c;
+  --tx:#22261F;
+  --ac:#255808;
+}
+
+html {
+  background:var(--bg);
+  background-image:url(/~images/bg/natfl354.jpg);
+}
+
+body {
+  font-family:sans-serif;
+  color:var(--tx);
+}
+
+main {
+  display:flex;
+  flex-flow:column nowrap;
+  margin:auto;
+  width:95%;
+}
+
+header {
+  display:flex;
+  align-items:flex-end;
+  margin:0;
+  width:100%;
+  height:150px;
+  text-shadow:3px 3px 0 #000;
+  background:url(/~images/wall.png);
+  background-size:cover;
+  background-position:center;
+  border:1px solid black;
+}
+
+section {
+  display:flex;
+  flex-flow:row nowrap;
+  gap:0;
+}
+
+aside {
+  padding:1rem;
+  background:var(--fg);
+}
+.left {
+  order:1;
+}
+.right {
+  order:3;
+  min-width:130px;
+}
+.right img {
+  display:block;
+  margin:2px auto;
+  width:88px;
+  height:31px;
+  image-rendering:pixelated;
+  transition:150ms;
+}
+.right img:hover {
+  transform:scale(2);
+  cursor:zoom-in;
+}
+
+article {
+  order:2;
+  padding:1rem;
+  background:var(--fg);
+}
+
+footer p {
+  margin:0;
+}
+
+h1 {
+  margin:0.5rem 1rem;
+  color:#fff;
+}
+
+h2 {
+  margin:0.5rem 0;
+  font-size:1.2rem;
+}
+
+a {
+  color:var(--ac);
+}
+a:hover {
+  color:var(--fg);
+  background:var(--ac);
+}
+
+.warning {
+  color:#911111;
+  font-weight:bold;
+  text-align:center;
+}
+
+@media (max-width:760px) {
+  main {
+    flex-flow:column nowrap;
+  }
+  section {
+    flex-flow:row wrap;
+  }
+  aside {
+    width:100%;
+  }
+  nav h2 {
+    display:none;
+  }
+  nav ul, nav li {
+    display:inline;
+  }
+  .right {
+    text-align:center;
+  }
+  .right img {
+    margin:0;
+    display:inline-block;
+  }
+}
+
+@media (min-width:1000px) {
+  main {
+    width:900px;
+  }
+}
