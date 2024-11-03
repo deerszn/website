@@ -103,15 +103,6 @@ img {
   border-style:none;
 }
 
-/* dark mode */
-
-@media (prefers-color-scheme:dark) {
-  html {
-    color:#cecece;
-    background:#1a1a1a;
-  }
-}
-
 /* accessibility */
 
 [title] {

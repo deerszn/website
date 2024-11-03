@@ -1,0 +1,38 @@
+body {
+  color:#292626;
+  line-height:1.75;
+  background:url('/~images/bg/beige1.gif');
+}
+
+main {
+  margin:1rem auto;
+  padding:1rem;
+  width:50%;
+  background:url('/~images/bg/paper-grid-blue.png');
+  border:1px solid #5050a8;
+  border-radius:6px;
+}
+
+img {
+  padding:4px;
+  background:#fff;
+  border:1px solid gray;
+}
+
+footer {
+  padding:1rem;
+  text-align:center;
+}
+
+a {
+  color:#473c8a;
+  font-weight:bold;
+  text-decoration:none;
+  background:#ffff0048;
+}
+
+@media (max-width:720px) {
+  main {
+    width:95%;
+  }
+}
