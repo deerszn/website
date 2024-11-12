@@ -59,6 +59,27 @@ summary {
   cursor:pointer;
 }
 
+dl {
+  margin:1rem 0;
+}
+dt {
+  font-family:"National Park Bold";
+  font-weight:bold;
+  font-size:1.15rem;
+}
+dd {
+  margin:0;
+  padding:0;
+}
+
+dd span {
+  padding:4px;
+  font-size:90%;
+  vertical-align:1px;
+  border-radius:15%;
+  opacity:80%;
+}
+
 progress {
 	vertical-align:baseline;
 }

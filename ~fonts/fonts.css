@@ -1,0 +1,9 @@
+@font-face {
+  font-family:"National Park";
+  src:url(/~fonts/natl-park.otf) format("opentype");
+}
+
+@font-face {
+  font-family:"National Park Bold";
+  src:url(/~fonts/natl-park-bold.otf) format("opentype");
+}
